@@ -1,0 +1,67 @@
+
+.dice {
+  display: inline-block;
+}
+.player1{
+  color: #ddd ;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+.player2{
+  color: #000 ;
+  text-shadow: -2px -2px 0 #ddd, 2px -2px 0 #ddd, -2px 2px 0 #ddd, 2px 2px 0 #ddd;
+}
+
+
+/* Elements */
+body{
+  text-align: center !important;
+}
+h1 {
+  margin: 30px 30px 0;
+  font-family: 'Handlee', serif;
+  font-size: 8rem;
+  color: #1E90FF;
+}
+p {
+  font-size: 3rem;
+  color: #1E90FF;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+img {
+  width: 80%;
+}
+footer{  
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
+/* Click to roll Button */
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ff0000;
+  padding: 10px 20px 10px 20px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #d40000);
+  background-image: -moz-linear-gradient(top, #ff0000, #d40000);
+  background-image: -ms-linear-gradient(top, #ff0000, #d40000);
+  background-image: -o-linear-gradient(top, #ff0000, #d40000);
+  background-image: linear-gradient(to bottom, #ff0000, #d40000);
+  text-decoration: none;
+}
